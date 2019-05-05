@@ -1,0 +1,23 @@
+{
+  "hello": "Hello",
+  "dashboard": "Dashboard",
+  "schedule": "Schedule",
+  "courses": "Courses",
+  "gradebook": "Gradebook",
+  "performance": "Performance",
+  "announcement": "Announcement",
+  "welcome_user": "Welcome {userName}",
+  "exams_time": "Exams Time",
+  "dashboard_hero_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus deleniti distinctio dolorem, itaque minima voluptas?",
+  "dashboard_hero_quote": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+  "dashboard_hero_auth": "Albert Einstein",
+  "hero_view_tips": "View exams tips",
+  "announcement_title": "Announcements",
+  "announcement_description": "Lorem ipsum dolor sit amet, consectetur elit.",
+  "all": "All",
+  "tasks_title": "What's Due",
+  "tasks_description": "Lorem ipsum dolor sit amet, consectetur elit.",
+  "course": "Course",
+  "topic": "Topic",
+  "due_top": "Due To"
+}
