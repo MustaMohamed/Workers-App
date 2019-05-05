@@ -12,19 +12,19 @@ class Contact extends Component {
     render() {
         return (
 
-            <ListItem avatar={ this.props.imageAvailable }>
-                { this.props.imageAvailable && <Left>
-                    <Thumbnail source={ { uri: this.props.image.uri } }/>
+            <ListItem avatar>
+                { <Left>
+                    { this.props.imageAvailable && <Thumbnail source={ { uri: this.props.image.uri || '' } }/> }
                 </Left>
                 }
                 <Body>
                     <Text>{ this.props.name }</Text>
-                    {this.props.phoneNumbers && <Text>{ this.props.phoneNumbers[0].number || '' }</Text>}
+                    { this.props.phoneNumbers && <Text>{ this.props.phoneNumbers[0].number || '' }</Text> }
                 </Body>
             </ListItem>
-
         );
     }
+
 }
 
 export default Contact;
